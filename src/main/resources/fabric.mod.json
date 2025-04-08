@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "direwolfs",
+  "version": "${version}",
+  "name": "Direwolfs",
+  "description": "week 6/52 minecraft mod mantra",
+  "authors": [],
+  "contact": {},
+  "license": "Apache-2.0",
+  "icon": "assets/direwolfs/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.idothehax.direwolfs.client.DirewolfsClient"
+    ],
+    "main": [
+      "net.idothehax.direwolfs.Direwolfs"
+    ]
+  },
+  "mixins": [
+    "direwolfs.mixins.json",
+    {
+      "config": "direwolfs.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
