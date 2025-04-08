@@ -4,8 +4,10 @@
   "version": "${version}",
   "name": "Direwolfs",
   "description": "week 6/52 minecraft mod mantra",
-  "authors": [],
-  "contact": {},
+  "authors": ["IDoTheHax"],
+  "contact": {
+    "discord": "https://discord.gg/invite/zwrMmVEnyH"
+  },
   "license": "Apache-2.0",
   "icon": "assets/direwolfs/icon.png",
   "environment": "*",
