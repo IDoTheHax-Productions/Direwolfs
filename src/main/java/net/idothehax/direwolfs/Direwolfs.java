@@ -26,7 +26,7 @@ public class Direwolfs implements ModInitializer {
             FabricEntityTypeBuilder.createMob()
                     .entityFactory(DirewolfEntity::new)
                     .defaultAttributes(DirewolfEntity::createDirewolfAttributes)
-                    .dimensions(EntityDimensions.fixed(1.8F, 2.8F))
+                    .dimensions(EntityDimensions.fixed(1.3F, 1.8F))
                     .build()
     );
 
